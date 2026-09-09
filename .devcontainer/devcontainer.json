@@ -1,0 +1,7 @@
+{
+  "name": "GEV",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "forwardPorts": [4173],
+  "postCreateCommand": "npm ci",
+  "hostRequirements": { "cpus": 2 }
+}
